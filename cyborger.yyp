@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"movement","path":"scripts/movement/movement.yy",},"order":2,},
     {"id":{"name":"obj_gborg","path":"objects/obj_gborg/obj_gborg.yy",},"order":0,},
     {"id":{"name":"obj_white_limo","path":"objects/obj_white_limo/obj_white_limo.yy",},"order":3,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
@@ -12,12 +13,14 @@
     {"id":{"name":"white_car","path":"sprites/white_car/white_car.yy",},"order":4,},
     {"id":{"name":"_32bit_tileset_arranged_Sheet","path":"sprites/_32bit_tileset_arranged_Sheet/_32bit_tileset_arranged_Sheet.yy",},"order":1,},
     {"id":{"name":"obj_red_van","path":"objects/obj_red_van/obj_red_van.yy",},"order":2,},
+    {"id":{"name":"notes","path":"scripts/notes/notes.yy",},"order":0,},
     {"id":{"name":"spr_white_limo","path":"sprites/spr_white_limo/spr_white_limo.yy",},"order":3,},
     {"id":{"name":"obj_parent_vehicle","path":"objects/obj_parent_vehicle/obj_parent_vehicle.yy",},"order":4,},
     {"id":{"name":"gborg_idle_up","path":"sprites/gborg_idle_up/gborg_idle_up.yy",},"order":5,},
     {"id":{"name":"gborg_idle_left","path":"sprites/gborg_idle_left/gborg_idle_left.yy",},"order":7,},
     {"id":{"name":"gborg_walk_down","path":"sprites/gborg_walk_down/gborg_walk_down.yy",},"order":0,},
     {"id":{"name":"gborg_walk_left","path":"sprites/gborg_walk_left/gborg_walk_left.yy",},"order":1,},
+    {"id":{"name":"constants","path":"scripts/constants/constants.yy",},"order":1,},
     {"id":{"name":"spr_orange_car","path":"sprites/spr_orange_car/spr_orange_car.yy",},"order":0,},
     {"id":{"name":"gborg_walk_right","path":"sprites/gborg_walk_right/gborg_walk_right.yy",},"order":2,},
     {"id":{"name":"gborg_idle_right","path":"sprites/gborg_idle_right/gborg_idle_right.yy",},"order":4,},
