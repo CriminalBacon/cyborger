@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_white_limo","path":"sprites/spr_white_limo/spr_white_limo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_white_limo",
     "tags": [],
     "resourceType": "GMSequence",

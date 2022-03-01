@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_orange_car","path":"sprites/spr_orange_car/spr_orange_car.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_orange_car",
     "tags": [],
     "resourceType": "GMSequence",

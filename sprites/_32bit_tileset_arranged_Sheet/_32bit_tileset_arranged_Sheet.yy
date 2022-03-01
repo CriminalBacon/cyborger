@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"_32bit_tileset_arranged_Sheet","path":"sprites/_32bit_tileset_arranged_Sheet/_32bit_tileset_arranged_Sheet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "_32bit_tileset_arranged_Sheet",
     "tags": [],
     "resourceType": "GMSequence",

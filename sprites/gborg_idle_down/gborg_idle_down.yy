@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"gborg_idle_down","path":"sprites/gborg_idle_down/gborg_idle_down.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "gborg_idle_down",
     "tags": [],
     "resourceType": "GMSequence",
