@@ -46,17 +46,36 @@ if (vy < 0) {
 }
 
 //check for vehicle collision
-if (!collision_point(x+vx, y, obj_parent_vehicle, true, true)){
-	x += vx;
+//if (!collision_point(x+vx, y, obj_parent_vehicle, true, true)){
+//	x += vx;
+//}
+
+//if (!collision_point(x, y+vy, obj_parent_vehicle, true, true)){
+//	y += vy;
+
+//}
+
+// check for explosion collision
+if (collision_rectangle(x-6, y, x + 6, y - 30, obj_explosion, false, false)){
+	room_restart();
 }
 
-if (!collision_point(x, y+vy, obj_parent_vehicle, true, true)){
-	y += vy;
+//check for dead space collision
+check_dead_space();
 
-}
+//check for centipede collision
+if (position_meeting(x, y, par_centipede)){
+	var _inst = instance_place(x, y, par_centipede);
+	if (collision_point(x, y, par_centipede, true, false) != _inst){
+		// do nothing
+	} else {
+	vx += _inst.speed;
+	//vx += other.speed;
+	}
+} 
 
-
-
+x += vx;
+y += vy;
 
 
 
